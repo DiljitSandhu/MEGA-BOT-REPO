@@ -22,6 +22,8 @@ client.login(config.token);
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
+client.user.setPresence(`STREAMING`)
+client.user.setActivity(`Playing PokeOne | User $help! | Writing myself `)
 let clearing = false;
 client.on('message', msg => {
   if(msg.channel.type == "dm")
