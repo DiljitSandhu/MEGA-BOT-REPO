@@ -1,0 +1,28 @@
+{
+  "name": "discord",
+  "version": "1.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/node": "^7.0.0-beta.44",
+    "clear-module": "^2.1.0",
+    "discord.js": "^11.3.2",
+    "jsonfile": "^4.0.0",
+    "replace": "^1.0.0",
+    "require-uncached": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin T.",
+  "license": "ISC",
+  "description": "A BOT!",
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "$"
+  ]
+}
