@@ -19,11 +19,13 @@ function sleep(ms) {
 
 client.login(config.token);
 
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setActivity(`People use $help ! | Playing PokeOne | Making Errors in Myself`, {type: `Streaming`})
 });
 
-client.user.setActivity(`Playing PokeOne | User $help! | Writing myself `)
+
 let clearing = false;
 client.on('message', msg => {
   if(msg.channel.type == "dm")
