@@ -62,3 +62,8 @@ typings/
 
 #Temp Folder
 temp/
+
+#Hide
+conf.json
+/node_modules
+data.json
