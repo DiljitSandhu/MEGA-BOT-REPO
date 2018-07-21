@@ -1,4 +1,2 @@
-conf.json
 data.json
-Procfile
-node_modules
+/node_modules
